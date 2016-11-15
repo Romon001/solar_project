@@ -99,7 +99,7 @@ def write_space_objects_data_to_file(output_filename, space_objects):
     with open(output_filename, 'w') as out_file:
         for obj in space_objects:
             print(out_file, ((splitted[0]),(splitted[1]),(splitted[2]),(splitted[3],(splitted[4]),(splitted[5])(splitted[6]))
-            "%s %d %s %f" % ('1', 2, '3', 4.5))
+            # "%s %d %s %f" % ('1', 2, '3', 4.5))
             # FIXME: should store real values
             
 
